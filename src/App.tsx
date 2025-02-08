@@ -187,7 +187,7 @@ function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl animate-slide-in-right transform hover:scale-[1.02] transition-transform duration-300">
               <img
-                src={"../public/images/business-meeting.png"}
+                src={"../public/images/business-meeting.jpg"}
                 alt="Team collaboration"
                 className="w-full h-[400px] object-cover"
               />
