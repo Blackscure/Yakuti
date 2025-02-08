@@ -5,7 +5,7 @@ function YakutiLogo() {
   return (
     <div className="flex flex-col items-center relative">
     <img
-      src={"../public/images/yakuti-logo.jpg"}
+      src={"/public/images/yakuti-logo.jpg"}
       alt="Yakuti Logo"
       className="h-20 w-20 max-w-full"
     />
@@ -187,7 +187,7 @@ function App() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl animate-slide-in-right transform hover:scale-[1.02] transition-transform duration-300">
               <img
-                src={"../public/images/business-meeting.jpg"}
+                src={"/public/images/business-meeting.jpg"}
                 alt="Team collaboration"
                 className="w-full h-[400px] object-cover"
               />
@@ -252,7 +252,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="rounded-2xl overflow-hidden shadow-2xl animate-slide-in-left transform hover:scale-[1.02] transition-transform duration-300">
               <img
-                src={"../public/images/what-we-do.jpg"}
+                src={"/public/images/what-we-do.jpg"}
                 alt="Business meeting"
                 className="w-full h-[400px] object-cover"
               />
